@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 header {
     background-image: url(../img/cover.jpg);
     background-position: center;

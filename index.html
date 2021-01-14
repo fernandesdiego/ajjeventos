@@ -74,19 +74,21 @@
             </div>  
         </div>
             
-        <div class="container">
+        <div class="container h-25">
             <div class="row">
                 <div class="col-md">
                     <h3 class="text-center">NOSSOS SERVIÇOS</h3>
                     <p>
-                        Sed in egestas metus, a maximus lorem. Proin hendrerit posuere ex. Vivamus vitae enim quam. Nullam at tempus ante. Nulla laoreet, dui ut facilisis interdum, neque arcu viverra mi, ut porttitor neque mauris non leo. Quisque mauris lacus, pellentesque vel vehicula vel, cursus aliquam leo. Maecenas at massa tempor, feugiat diam sed, consequat erat. Nam blandit iaculis mi id dapibus. Etiam fermentum mauris at arcu interdum placerat. Curabitur eu consequat mi, eu sodales leo. Praesent pellentesque dui ultricies arcu lobortis rutrum. Nulla imperdiet tortor non vestibulum tempor. Nullam erat odio, sollicitudin suscipit malesuada nec, lobortis in tellus. Aliquam lobortis quam eu ex congue egestas.
+                        Vai fazer um evento? Conte com nossa equipe! <br>
+                        Preço justo e garantia de ótimo serviço. Somos uma equipe especializada de garçons, churrasqueiro, garçonetes, cozinheira, segurança, fritura no local, para fazer de seu evento em um sucesso em atendimento para seus convidados.                        
                     </p>
-                    <hr>
+                    
                 </div>
             </div>
         </div>
+        <hr>
         <!-- End-Services -->       
-        <!-- Featured -->            
+        <!-- Featured -->
         <div id="featured" class="container-fluid bg-light">
             <div class="row">
                 <div class="col-sm">
@@ -117,16 +119,16 @@
         <!-- About -->
         
         <br>
-        <div id="about" class="container">
+        <div id="about" class="container h-50">
             <div class="row">
                 <div class="col">
                     <hr>
                     <h3 class="text-center">QUEM SOMOS</h3>
                     <p>
-                        Ut eu nisi ante. Pellentesque vitae justo feugiat, finibus nulla at, faucibus leo. Phasellus sit amet facilisis elit. Sed eget vulputate nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus lectus metus, hendrerit eget tellus non, ultricies pharetra velit. Morbi sit amet rutrum ligula. Aliquam molestie est iaculis orci pharetra, vulputate vulputate libero tristique.
+                        Somos uma prestadora de serviços para eventos,contamos com uma equipe especializada em servir bem,composta por churrasqueiro, cozinheira,garçons, recepcionista, atuamos em buffets, eventos,sociais, corporativos, debutantes, casamentos, feiras eventos familiares.                   
                     </p>
                     <p>
-                        Nunc dictum viverra nulla non sollicitudin. Etiam magna orci, ornare vel tellus eu, sodales mattis mauris. Morbi finibus cursus elit non laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam in efficitur diam, quis feugiat dolor. Curabitur ex dolor, vulputate vel lacus eget, aliquet aliquet nunc. Morbi risus elit, dignissim nec libero id, semper imperdiet orci. Nam non lacinia purus. Quisque hendrerit dapibus leo sed ornare.
+                        Faça sua festa com nossa equipe, nosso compromisso é servir com excelência.
                     </p>
                     <div class="row text-center">
                         <div class="col">
@@ -157,25 +159,26 @@
                 <div class="row">
                     <div class="col-md">
                         <p>CONTATO</p>
-                        <p>email@example.com</p>
-                        <p>(43) 9 9999-9999 | (43) 3333-3333</p>
+                        <p>josicamargo2009@hotmail.com</p>
+                        <p>(43) 9 8432-4305</p>
                     </div>
                     <div class="col-md">
                         <label>Envie uma mensagem:</label>
-                        <form>
+                        <form id="contact-form" action="https://formspree.io/f/xleoakej" method="POST">
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Nome" required>
+                                <input class="form-control" type="text" name="Nome" placeholder="Nome" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email" required>
+                                <input class="form-control" type="email" name="Email" placeholder="Email" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="tel" placeholder="Fone" required>
+                                <input class="form-control" type="tel" name="Fone" placeholder="Fone" required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" rows="5" placeholder="Digite sua mensagem..." required></textarea>
+                                <textarea class="form-control" rows="5" name="Mensagem" placeholder="Digite sua mensagem..." required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-light">Enviar</button>
+                            <button type="submit" id="submit-form" class="btn btn-light">Enviar</button>
+                            <p id="form-status"></p>
                             <br>
                             <br>                            
                         </form>                        
@@ -200,5 +203,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
+        <script src="js/contact.js"></script>
     </body>
 </html>
