@@ -1,0 +1,46 @@
+header {
+    background-image: url(../img/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#logo {
+    max-width: 100px;
+}
+
+.nav-link {
+    color:white !important;
+}
+
+/* .service-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: auto;
+    align-content: start;
+    margin-bottom: 30px;    
+} */
+
+.service-item {
+    
+    margin-top: -50px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.service-name {
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (max-width: 991px){
+    .col-margin{
+        margin-bottom: 60px;
+    }  
+}
